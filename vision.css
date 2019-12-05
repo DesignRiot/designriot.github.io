@@ -175,18 +175,13 @@ img[src*="code_icon"] {
 }
 
 
-.carousel-heading:hover{
-	color: rgba(72,151,178,1);
-
-}
-
 .carousel-heading span{
 	background-color: #000000;
 
 }
 
 .carousel-heading span:hover{
-	background-color: #ffffff;
+	background-color: rgba(72,151,178,1);
 
 }
 
