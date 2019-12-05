@@ -98,7 +98,7 @@ div.typewriter-text:hover {
  	animation: 	typing 3.5s steps(53, end) 3.5s alternate both,
  				blinking .75s step-end 2.5s infinite;
     white-space: nowrap;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     font-weight: 600;
     border-right: 4px solid transparent;
     box-sizing: border-box;
