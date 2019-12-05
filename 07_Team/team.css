@@ -1,0 +1,142 @@
+.jumbotron {
+	margin-top: 68px;
+	background-color: rgba(72,151,178,0.5);
+}
+
+p.jumbotext {
+	text-align: justify;
+	color: #000000;
+}
+
+p.quote {
+	text-align: right;
+	font-size: 1.4rem;
+	font-weight: 500;
+	color: #4897B2;
+	font-family: 'Raleway', cursive;
+}
+
+.display-3 {
+	color: #4897B2;
+	font-weight: 100;
+}
+
+.card {
+	border: solid 0px white;
+}
+
+.btn-outline-success {
+	color: #4897B2;
+	border: solid 1px #4897B2;
+}
+
+.btn-outline-success:hover {
+	background:rgba(72,151,178,0.5);	
+	border: solid 1px rgba(72,151,178,0.5);
+	color: white;
+}
+
+img.profilephoto {
+	-webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+	filter: grayscale(100%); /* FF 35+ */
+}
+
+img.profilephoto:hover {
+	transition: filter .7s ease-in-out;
+	-webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+	filter: grayscale(0%); /* FF 35+ */
+}
+
+hr {
+	width: 50%;
+	border-top: 1px solid rgb(255, 255, 255);
+	border-bottom: 3px solid rgba(72,151,178,0.5);
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+span.quotemarks {
+	font-weight: 800;
+	color: rgba(72,151,178,0.7);
+}
+
+/*TYPE EFFECT*/
+
+.typewriter {
+    font-family: Courier, monospace;
+	display: inline-block;
+}
+
+/*OUR TEAM*/
+
+.typewriter-text {
+    display: block;
+  	overflow: hidden;
+  	letter-spacing: 4px;
+ 	animation: 	typing 2s cubic-bezier(.83,.02,.23,.98) 0.5s alternate both,
+ 				blinking .75s step-end 0;
+    white-space: nowrap;
+    font-size: 4rem;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: #000000;
+    padding: 0px;
+    border-right: 0px solid transparent;
+    box-sizing: border-box;
+}
+
+div.typewriter-text:hover {
+	color: rgba(72,151,178,1);
+}
+
+@keyframes typing {
+    from { 
+        width: 0% 
+    }
+    to { 
+        width: 100% 
+    }
+}
+
+@keyframes blinking {
+    from, to { 
+        border-color: transparent 
+    }
+    50% { 
+        border-color: transparent; 
+    }
+}
+
+/*We Are A, C, C + C*/
+
+.typewriter-text2 {
+    display: block;
+  	overflow: hidden;
+  	letter-spacing: 2px;
+ 	animation: 	typing 3.5s steps(54, end) 3.5s alternate both,
+ 				blinking .75s step-end 2.5s infinite;
+    white-space: normal;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-right: 4px solid transparent;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+@keyframes typing {
+    from { 
+        width: 0% 
+    }
+    to { 
+        width: 100% 
+    }
+}
+
+@keyframes blinking {
+    from, to { 
+        border-color: transparent; 
+    }
+    50% { 
+        border-color: orange; 
+    }
+}

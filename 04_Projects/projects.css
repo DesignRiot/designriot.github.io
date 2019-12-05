@@ -1,0 +1,17 @@
+#heading-group h1 {
+	color: white;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 100;
+	font-size: 3.5rem;
+	color: #000000;
+}
+
+#heading-group h1 span {
+	color: #4897B2;
+}
+
+/*EXTEND THE PAGE*/
+section.extend-page {
+	padding-bottom: 132px;
+}
