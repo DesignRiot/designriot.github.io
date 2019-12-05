@@ -140,3 +140,14 @@ div.typewriter-text:hover {
         border-color: orange; 
     }
 }
+
+@media screen and (max-width: 992px)
+{
+  .typewriter-text2 {
+    background-image: url(softwood_sky_bw.gif);
+    background-size: cover;
+    height: 100%;
+    min-height: 100%;
+    overflow: hidden;
+    }
+}

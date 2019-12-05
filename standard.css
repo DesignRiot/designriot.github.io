@@ -77,11 +77,18 @@ div .dropdown-menu {
 }
 
 .dropdown-item.active {
-    font-weight: 400;
-    background-color: #000000;
-    text-decoration: none;
-	padding: 4px 12px;
-	display: inline-block;
+  font-weight: 400;
+  text-decoration: none;
+  background-color: transparent;
+	padding: 4px 0px;
+}
+
+.dropdown-item.active span {
+  background-color: #000000;
+}
+
+.dropdown-item.nav-link {
+  padding: 8px 0px;
 }
 
 .navbar.scrolled {
