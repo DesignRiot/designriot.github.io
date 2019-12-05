@@ -33,7 +33,7 @@
 }
 
 #photo01 {
-    background-image: url(../imgs/slide01.jpg);
+    background-image: url(imgs/slide01.jpg);
     background-size: cover;
     background-position: center;
     height: 100%;
@@ -41,7 +41,7 @@
 }
 
 #photo02 {
-    background-image: url(../imgs/slide02.jpg);
+    background-image: url(imgs/slide02.jpg);
     background-size: cover;
     background-position: center;
     height: 100%;
@@ -49,7 +49,7 @@
 }
 
 #photo03 {
-    background-image: url(../imgs/slide03.jpg);
+    background-image: url(imgs/slide03.jpg);
     background-size: cover;
     background-position: center;
     height: 100%;
