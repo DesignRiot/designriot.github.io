@@ -84,14 +84,6 @@ div .dropdown-menu {
 	display: inline-block;
 }
 
-.dropdown-item.active:hover {
-    font-weight: 400;
-    color: #000000;
-    background-color: #ffffff;
-    text-decoration: none;
-	padding: 4px 12px;
-}
-
 .navbar.scrolled {
 	background:rgba(72,151,178,1);
 	transition: background 1600ms;
