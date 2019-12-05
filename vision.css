@@ -111,7 +111,7 @@
  	animation: 	typing 3s steps(28, end) 3.5s alternate both,
  				blinking .75s step-end 2.5s infinite;
     white-space: nowrap;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 700;
     border-right: 4px solid transparent;
     box-sizing: border-box;
