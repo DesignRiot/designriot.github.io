@@ -31,7 +31,6 @@ p.quote {
 .btn-outline-success {
 	color: rgba(72,151,178,1);
 	border: solid 1px #4897B2;
-    /*background-color: rgba(72,151,178,1);*/
 }
 
 .btn-outline-success:hover {
@@ -55,7 +54,7 @@ p.quote {
 
 .btn-outline-success:not(:disabled):not(.disabled):active:focus, .btn-outline-success:not(:disabled):not(.disabled).active:focus,
 .show > .btn-outline-success.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(rgba(72,151,178,0.5);
+  box-shadow: 0 0 0 0.2rem rgba(72,151,178,0.5);
 }
 
 
@@ -131,7 +130,7 @@ div.typewriter-text:hover {
 
 /*Arch, Code, Create + Collab*/
 
-.typewriter-text2 {
+.typewriter-text-2 {
     display: block;
   	overflow: hidden;
   	letter-spacing: 2px;
