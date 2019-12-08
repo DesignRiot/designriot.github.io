@@ -29,8 +29,9 @@ p.quote {
 }
 
 .btn-outline-success {
-	color: #4897B2;
+	color: rgba(72,151,178,1);
 	border: solid 1px #4897B2;
+    /*background-color: rgba(72,151,178,1);*/
 }
 
 .btn-outline-success:hover {
@@ -38,6 +39,25 @@ p.quote {
 	border: solid 1px rgba(72,151,178,0.5);
 	color: white;
 }
+
+
+.btn-outline-success:focus, .btn-outline-success.focus {
+  box-shadow: 0 0 0 0.2rem rgba(72,151,178,0.5);
+}
+
+
+.btn-outline-success:not(:disabled):not(.disabled):active, .btn-outline-success:not(:disabled):not(.disabled).active,
+.show > .btn-outline-success.dropdown-toggle {
+  color: #fff;
+  background-color: rgba(72,151,178,1);
+  border-color: rgba(72,151,178,1);
+}
+
+.btn-outline-success:not(:disabled):not(.disabled):active:focus, .btn-outline-success:not(:disabled):not(.disabled).active:focus,
+.show > .btn-outline-success.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(rgba(72,151,178,0.5);
+}
+
 
 img.profilephoto {
 	-webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */

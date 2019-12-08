@@ -233,3 +233,18 @@ footer {
 .hamburger {
 
 }
+
+@media (max-width: 768px) {
+
+  footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(72,151,178,1);
+  color: white;
+  text-align: center;
+  padding: 12px 0px;
+}
+
+}
