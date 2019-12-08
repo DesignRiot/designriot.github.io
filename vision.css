@@ -72,7 +72,7 @@
  	animation: 	typingdrees 1.5s cubic-bezier(.83,.02,.23,.98) 1s alternate both,
  				blinkingdrees .75s step-end 4;
     white-space: nowrap;
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: 500;
     color: #ffffff;
     background-color: #000000;
@@ -109,13 +109,13 @@
   	overflow: hidden;
   	letter-spacing: 2px;
  	animation: 	typing 3s steps(28, end) 3.5s alternate both,
- 				blinking .75s step-end 2.5s infinite;
+ 				blinking .75s step-end 2s infinite;
     white-space: nowrap;
     font-size: 1rem;
     font-weight: 700;
     border-right: 4px solid transparent;
     box-sizing: border-box;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 @keyframes typing {
@@ -171,6 +171,7 @@ img[src*="code_icon"] {
 	display: block;
 	margin: 0px;
 	white-space: normal;
+    text-transform: uppercase;  
 
 }
 
@@ -196,9 +197,20 @@ img[src*="code_icon"] {
 	text-transform: uppercase;
 }
 
+#drees-a-m-d {
+    padding: 3rem;
+}
+
+hr {
+    width: 50%;
+    border-top: 1px solid rgb(255, 255, 255);
+    border-bottom: 3px solid rgba(72,151,178,0.5);
+    margin-top: 40px;
+}
+
 #blue-drees-anime{
 	background-color: rgba(72,151,178,0.5);
-	margin-top: 68px;
+	margin-top: 63px;
 	margin-right: 0px;
 	margin-left: 0px;
 	margin-bottom: 0px;
@@ -206,5 +218,5 @@ img[src*="code_icon"] {
 
 /*EXTEND THE PAGE*/
 section.extend-page {
-	padding-bottom: 160px;
+	padding-bottom: 0px;
 }

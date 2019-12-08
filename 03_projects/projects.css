@@ -1,19 +1,17 @@
 .jumbotron {
-	margin-top: 68px;
+	/*position: relative;*/
+    /*top: 63px;*/
+    margin-top: 63px;
+    margin-bottom: 0px;
 	background-color: rgba(72,151,178,0.5);
-}
-
-p.jumbotext {
-	text-align: justify;
-	color: #000000;
+    padding: 3rem;
 }
 
 hr {
-    width: 50%;
-    border-top: 1px solid rgb(255, 255, 255);
-    border-bottom: 3px solid rgba(72,151,178,0.5);
-    margin-top: 40px;
-    margin-bottom: 40px;
+	width: 50%;
+	border-top: 1px solid rgb(255, 255, 255);
+	border-bottom: 3px solid rgba(72,151,178,0.5);
+	margin-top: 40px;
 }
 
 #heading-group h1 {
@@ -83,13 +81,13 @@ div.typewriter-text:hover {
   	overflow: hidden;
   	letter-spacing: 2px;
  	animation: 	typing 3.5s steps(53, end) 3.5s alternate both,
- 				blinking .75s step-end 2.5s infinite;
+ 				blinking .75s step-end 2s infinite;
     white-space: nowrap;
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 600;
     border-right: 4px solid transparent;
     box-sizing: border-box;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 @keyframes typing {
@@ -112,5 +110,5 @@ div.typewriter-text:hover {
 
 /*EXTEND THE PAGE*/
 section.extend-page {
-	padding-bottom: 132px;
+	padding-bottom: 0px;
 }

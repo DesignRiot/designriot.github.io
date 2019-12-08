@@ -1,11 +1,14 @@
 .jumbotron {
-	margin-top: 68px;
+	/*position: relative;*/
+    /*top: 63px;*/
+    margin-top: 63px;
 	background-color: rgba(72,151,178,0.5);
+    padding: 3rem;
 }
 
-p.jumbotext {
-	text-align: justify;
-	color: #000000;
+p.jumbotron-text {
+    text-align: justify;
+    color: #000000;
 }
 
 p.quote {
@@ -52,7 +55,6 @@ hr {
 	border-top: 1px solid rgb(255, 255, 255);
 	border-bottom: 3px solid rgba(72,151,178,0.5);
 	margin-top: 40px;
-	margin-bottom: 40px;
 }
 
 span.quotemarks {
@@ -107,20 +109,20 @@ div.typewriter-text:hover {
     }
 }
 
-/*We Are A, C, C + C*/
+/*Arch, Code, Create + Collab*/
 
 .typewriter-text2 {
     display: block;
   	overflow: hidden;
   	letter-spacing: 2px;
  	animation: 	typing 3.5s steps(54, end) 3.5s alternate both,
- 				blinking .75s step-end 2.5s infinite;
+ 				blinking .75s step-end 2s infinite;
     white-space: nowrap;
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 600;
     border-right: 4px solid transparent;
     box-sizing: border-box;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 @keyframes typing {

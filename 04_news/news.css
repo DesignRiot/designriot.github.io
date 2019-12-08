@@ -1,6 +1,9 @@
 .jumbotron {
-	margin-top: 68px;
-	background-color: rgba(72,151,178,0.5);
+    /*position: relative;*/
+    /*top: 63px;*/
+    margin-top: 63px;
+    background-color: rgba(72,151,178,0.5);
+    padding: 3rem;
 }
 
 p.jumbotext {
@@ -21,11 +24,10 @@ p.quote {
 }
 
 hr {
-	width: 50%;
-	border-top: 1px solid rgb(255, 255, 255);
-	border-bottom: 3px solid rgba(72,151,178,0.5);
-	margin-top: 40px;
-	margin-bottom: 40px;
+    width: 50%;
+    border-top: 1px solid rgb(255, 255, 255);
+    border-bottom: 3px solid rgba(72,151,178,0.5);
+    margin-top: 40px;
 }
 
 h6 {
@@ -35,11 +37,6 @@ h6 {
 
 .card {
 	border: none;
-}
-
-/*EXTEND THE PAGE*/
-section.extend-page {
-	padding-bottom: 170px;
 }
 
 /*TYPE EFFECT*/
@@ -96,13 +93,13 @@ div.typewriter-text:hover {
   	overflow: hidden;
   	letter-spacing: 2px;
  	animation: 	typing 3.5s steps(53, end) 3.5s alternate both,
- 				blinking .75s step-end 2.5s infinite;
+ 				blinking .75s step-end 2s infinite;
     white-space: nowrap;
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 600;
     border-right: 4px solid transparent;
     box-sizing: border-box;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 @keyframes typing {
@@ -121,4 +118,20 @@ div.typewriter-text:hover {
     50% { 
         border-color: orange; 
     }
+}
+
+/*EXTEND THE PAGE*/
+section.extend-page {
+    padding-bottom: 0px;
+}
+
+.btn-outline-success {
+    color: #4897B2;
+    border: solid 1px #4897B2;
+}
+
+.btn-outline-success:hover {
+    background:rgba(72,151,178,0.5);    
+    border: solid 1px rgba(72,151,178,0.5);
+    color: white;
 }
