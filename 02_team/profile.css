@@ -1,6 +1,28 @@
-#top-row {
-    margin-top: 64px;
+#top-container {
+    margin-top: 63px;
+    padding: 2rem 0px 0px 0px;
 }
+
+div.info-text {
+    padding: 16px 0px;
+}
+
+div.info-text p {
+    line-height: 2rem;
+    margin-bottom: 0px;
+}
+
+h5  {
+    display: inline-block;
+    margin-bottom: 12px;
+    padding: 0.3rem;
+    color: white;
+    background-color: rgba(72,151,178,0.5);
+}
+
+/*h5 span {
+    background-color: rgba(72,151,178,0.7);
+}*/
 
 p.quote {
 	text-align: right;
@@ -8,6 +30,34 @@ p.quote {
 	font-weight: 500;
 	color: #4897B2;
 	font-family: 'Raleway', cursive;
+}
+
+.degree-text {
+    text-align: justify;
+    margin-bottom: 8px;
+}
+
+.contact-info {
+    padding-bottom: 1rem;
+}
+
+.contact-info a {
+    color: #50A8C6;
+    font-weight: 100;
+    font-size: 1rem;
+}
+
+.thumbnail-profile {
+    color: rgba(72,151,178,0.5);
+    font-size: 1.0rem;
+    padding-right: 2rem;
+    margin: 0px;
+}
+
+.thumbnail-profile:hover {
+    color: rgba(72,151,178,1);
+    /* font-size: 1.1rem; */
+    text-decoration: none;
 }
 
 .display-3 {
@@ -25,6 +75,7 @@ img[src="../../imgs/ivana.jpg"] {
 
 .card {
     border: solid 0px white;
+    padding: 0px 0px 2rem 0px; 
     /*width: 100%;*/
 }
 
@@ -59,7 +110,7 @@ hr {
 	display: block;
     width: 100%;
 	border-top: 1px solid rgb(255, 255, 255);
-	border-bottom: 3px solid rgba(72,151,178,0.5);
+	border-bottom: 3px solid rgba(72,151,178,0.8);
 	margin-top: 0px;
     margin-bottom: 0px;
 }
@@ -74,6 +125,7 @@ span.quotemarks {
 .typewriter {
     font-family: Courier, monospace;
 	display: inline-block;
+    padding-bottom: 16px;
    /* padding-top: 1rem;
     padding-right: 1rem;
     padding-bottom: 0rem;
@@ -92,7 +144,7 @@ span.quotemarks {
     font-size: 1.8rem;
     font-weight: 500;
     color: #ffffff;
-    background-color: rgba(72,151,178,0.7);
+    background-color: rgba(72,151,178,0.8);
     border-right: 0px solid transparent;
     box-sizing: border-box;
 }
@@ -162,16 +214,6 @@ span.quotemarks {
     
 }
 
-.thumbnail-profile {
-    color: rgba(72,151,178,0.7);
-    font-size: 1.0rem;
-}
-
-.thumbnail-profile:hover {
-    color: rgba(72,151,178,1);
-    /* font-size: 1.1rem; */
-    text-decoration: none;
-}
 
 /*.background-text {
     padding-top: 1rem;

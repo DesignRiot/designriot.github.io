@@ -28,10 +28,6 @@
 	color: #4897B2;
 }
 
-.carousel-inner {
-	height: 769px;
-}
-
 #photo01 {
     background-image: url(imgs/slide01.jpg);
     background-size: cover;
@@ -152,21 +148,26 @@ img[src*="code_icon"] {
 	justify-content: flex-end;
 }*/
 
+.carousel-inner {
+    height: 298px;
+}
+
 .carousel-caption {
 	position: relative;
 	top: 0%;
 	right:0;
 	left: 0%;
 	bottom: 0;
-	padding: 50px 50px 50px 50px;
-	text-align: left;
-	width: 75%;
+	padding: 3rem 0px 3rem 3rem;
+	width: 100%;
 
 }
 
 .carousel-heading {
-	font-size: 3.2rem;
-	font-weight: 600;
+	text-align: right;
+    font-family: Courier, monospace;
+    font-size: 2.5rem;
+	font-weight: 200;
 	color: #ffffff;
 	display: block;
 	margin: 0px;
@@ -181,13 +182,14 @@ img[src*="code_icon"] {
 
 }
 
-.carousel-heading span:hover{
-	background-color: rgba(72,151,178,1);
+/*.carousel-heading span:hover{
+    background-color: rgba(72,151,178,1);
 
-}
+}*/
 
 .carousel-subtext {
-	font-size: 1.5rem;
+    text-align: right;
+	font-size: 1.2rem;
 	color: #ffffff;
 	padding-top: 20px;
 	font-weight: 400;
@@ -195,6 +197,11 @@ img[src*="code_icon"] {
 	justify-content: flex-end;
 	white-space: normal;
 	text-transform: uppercase;
+}
+
+.carousel-subtext span{
+    background-color: #000000;
+
 }
 
 #drees-a-m-d {
@@ -209,7 +216,7 @@ hr {
 }
 
 #blue-drees-anime{
-	background-color: rgba(72,151,178,0.5);
+	background-color: rgba(163,203,216,1);
 	margin-top: 63px;
 	margin-right: 0px;
 	margin-left: 0px;

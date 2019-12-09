@@ -1,12 +1,8 @@
-/*
-html {
-	width: 100%;
-	padding: 0px
-	margin: 0px;
-}*/
 body {
 	background: rgba(255,255,255,1);
+  /*font-family: Courier, monospace;*/
 	font-family: 'Nunito', sans-serif;
+  /*font-family: 'Raleway', sans-serif;*/
 	overflow-x: hidden;
   height: 100%;
 }
@@ -20,39 +16,14 @@ p {	color: #50A8C6;
 #navbar-main {
   /*height: 63px;*/
 }
+
 .navbar-brand img {
   height: 45px;
   width: 45px;
 }
 
 .navbar {
-	background-color: rgba(72,151,178,0.5);
-}
-
-#navbar-main .navbar-brand:hover {
-	color: rgb(241, 116, 220);
-}
-
-#nav-links {
-	font-size: 1.2rem;
-	font-weight: 100;
-	color: white;
-}
-
-#nav-links .nav-link:hover {
-	color: white;
-	font-weight: 100;
-}
-
-#nav-links .nav-link.active:hover {
-	color: white;
-	font-weight: 300;
-	font-size: 1.2rem;
-}
-
-#nav-links .nav-link.active {
-	color: white;
-	font-weight: 300;
+	background-color: rgba(163,203,216,1);
 }
 
 /*.dropdown .dropdown-menu {
@@ -75,40 +46,39 @@ div .dropdown-menu {
 
 .dropdown-item {
 	color: white;
-	font-weight: 200;
+	font-weight: 300;
+  font-size: 1.2rem;
 	padding: 4px 12px;
 	margin: 0px;
+  background-color: transparent;
+  padding: 8px 0px;
 }
 
 .dropdown-item:hover {
-	background-color: rgba(72,151,178,0);
-	font-weight: 400;
+	font-weight: 300;
+  background-color: transparent;
 }
 
 .dropdown-item.active {
-  font-weight: 400;
-  text-decoration: none;
   background-color: transparent;
-	padding: 6px 0px;
 }
 
 .dropdown-item.active span {
-  background-color: #000000;
+  background-color: rgba(0,0,0,1);
 }
 
-.dropdown-item.nav-link {
-  padding: 8px 0px;
+.dropdown-item.active:hover {
+  font-weight: 300;
 }
 
 .navbar.scrolled {
 	background:rgba(72,151,178,1);
-	transition: background 800ms;
+	transition: background 1600ms;
 }
 
 .custom-toggler.navbar-toggler {
     border-color: rgba(255,255,255,0);
 }
-
 
 .hamburger {
   padding: 10px 10px;
@@ -194,7 +164,7 @@ footer {
 }
 
 
-#email-text {
+.email-text {
 	color: white;
 	font-size: 1rem;
 	font-weight: 100;
@@ -202,7 +172,7 @@ footer {
 
 }
 
-#email-text:hover {
+.email-text:hover {
 	color: white;
 	font-weight: 300;
 	text-decoration: none;
