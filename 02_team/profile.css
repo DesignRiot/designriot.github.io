@@ -12,7 +12,7 @@ div.info-text p {
     margin-bottom: 0px;
 }
 
-h5  {
+h5.highlight {
     display: inline-block;
     margin-bottom: 12px;
     padding: 0.3rem;

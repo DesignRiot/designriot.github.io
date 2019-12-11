@@ -1,0 +1,114 @@
+.jumbotron {
+	/*position: relative;*/
+    /*top: 63px;*/
+    margin-top: 63px;
+    margin-bottom: 0px;
+	background-color: rgba(163,203,216,1);
+    padding: 3rem;
+}
+
+hr {
+	width: 50%;
+	border-top: 1px solid rgb(255, 255, 255);
+	border-bottom: 3px solid rgba(72,151,178,0.5);
+	margin-top: 40px;
+}
+
+#heading-group h1 {
+	color: white;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 100;
+	font-size: 3.5rem;
+	color: #000000;
+}
+
+#heading-group h1 span {
+	color: #4897B2;
+}
+
+/*TYPE EFFECT*/
+
+.typewriter {
+    font-family: Courier, monospace;
+	display: inline-block;
+}
+
+/*NEWS*/
+
+.typewriter-text {
+    display: block;
+  	overflow: hidden;
+  	letter-spacing: 4px;
+ 	animation: 	typing 2s cubic-bezier(.83,.02,.23,.98) 0.5s alternate both,
+ 				blinking .75s step-end 0;
+    white-space: nowrap;
+    font-size: 4rem;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: #000000;
+    padding: 0px;
+    border-right: 0px solid transparent;
+    box-sizing: border-box;
+}
+
+div.typewriter-text:hover {
+	color: rgba(72,151,178,1);
+}
+
+@keyframes typing {
+    from { 
+        width: 0% 
+    }
+    to { 
+        width: 100% 
+    }
+}
+
+@keyframes blinking {
+    from, to { 
+        border-color: transparent 
+    }
+    50% { 
+        border-color: transparent; 
+    }
+}
+
+/*Reviews, Insights + Opinions*/
+
+.typewriter-text2 {
+    display: inline-block;
+  	overflow: hidden;
+  	letter-spacing: 2px;
+ 	animation: 	typing 2.5s steps(33, end) 3s alternate both,
+ 				blinking .75s step-end 2s infinite;
+    white-space: nowrap;
+    font-size: 1rem;
+    font-weight: 600;
+    border-right: 4px solid transparent;
+    box-sizing: border-box;
+    margin-top: 15px;
+}
+
+@keyframes typing {
+    from { 
+        width: 0% 
+    }
+    to { 
+        width: 100% 
+    }
+}
+
+@keyframes blinking {
+    from, to { 
+        border-color: transparent; 
+    }
+    50% { 
+        border-color: orange; 
+    }
+}
+
+/*EXTEND THE PAGE*/
+section.extend-page {
+	padding-bottom: 0px;
+}

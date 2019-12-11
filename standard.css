@@ -7,6 +7,13 @@ body {
   height: 100%;
 }
 
+h2 {
+  color: #4897B2;
+  font-weight: 100;
+  font-size: 1.5rem;
+  /*text-transform: uppercase;*/
+}
+
 p {	color: #50A8C6;
 	font-weight: 100;
 	font-size: 1rem;
