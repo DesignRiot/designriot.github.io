@@ -14,17 +14,25 @@ hr {
 	margin-top: 40px;
 }
 
-#heading-group h1 {
+.heading-group h1 {
 	color: white;
 	text-transform: uppercase;
 	text-align: center;
 	font-weight: 100;
-	font-size: 3.5rem;
+	font-size: 2rem;
 	color: #000000;
+    padding: 0.3rem;
 }
 
-#heading-group h1 span {
+.heading-group h1 span {
 	color: #4897B2;
+}
+
+h1:hover {
+    display: inline-block;
+    background-color: rgba(72,151,178,0.5);
+    color: white;
+    /*padding: 0px 1rem;*/
 }
 
 /*TYPE EFFECT*/

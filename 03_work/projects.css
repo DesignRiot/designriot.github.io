@@ -12,9 +12,8 @@
 }
 
 p.jumbotext {
-    text-align: center;
-    color: white;
-    width: 100%;
+    text-align: justify;
+    /*width: 50%;*/
     margin: 0px;
 }
 
@@ -43,7 +42,7 @@ hr {
     width: 50%;
     border-top: 1px solid rgb(255, 255, 255);
     border-bottom: 3px solid rgba(72,151,178,0.5);
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 h6 {
