@@ -17,11 +17,11 @@ p.jumbotext {
     margin: 0px;
 }
 
-h1.highlight {
+h2.highlight {
     /*display: inline-block;*/
     margin: 0 0 2rem 0;
     padding: 1rem 0rem 1rem 0rem;
-    font-weight: 200;
+    font-weight: 300;
     color: rgba(72,151,178,1);
     background-color: rgba(72,151,178,0.2);
 }
