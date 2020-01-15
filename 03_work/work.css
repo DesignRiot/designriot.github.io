@@ -28,7 +28,7 @@ hr {
 	color: #4897B2;
 }
 
-h1:hover {
+h2:hover {
     display: inline-block;
     background-color: rgba(72,151,178,0.5);
     color: white;
