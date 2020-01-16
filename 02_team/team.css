@@ -29,7 +29,7 @@ p.quote {
 }
 
 .card-body {
-    padding-left: 0px;   
+    padding: 1rem 0rem 0rem 0rem;   
 }
 
 .btn-outline-success {
