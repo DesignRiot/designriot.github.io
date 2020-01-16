@@ -1,6 +1,6 @@
 
  .row-padding {
-    padding: 1rem 0rem;
+    padding: 1rem 2rem;
  }
 
 .jumbotron {
@@ -29,7 +29,8 @@ h2.highlight {
 h5.highlight {
     display: inline-block;
     margin: 0px;
-    padding: 0.3rem;
+    padding: 0.5rem;
+    font-weight: 300;
     color: rgba(72,151,178,1);
     background-color: rgba(72,151,178,0.2);
 }
