@@ -1,6 +1,6 @@
 
  .row-padding {
-    padding: 1rem 2rem;
+    padding: 1rem 3rem;
  }
 
 .jumbotron {
@@ -40,7 +40,7 @@ p.quote {
     font-size: 1.4rem;
     font-weight: 500;
     color: #4897B2;
-    font-family: 'Raleway', cursive;
+    /*font-family: Courier, monospace;*/
 }
 
 .display-3 {

@@ -1,7 +1,7 @@
 body {
 	background: rgba(255,255,255,1);
   /*font-family: Courier, monospace;*/
-	font-family: 'Nunito', sans-serif;
+	font-family: 'Cairo', sans-serif;
   /*font-family: 'Raleway', sans-serif;*/
 	overflow-x: hidden;
   height: 100%;
@@ -26,7 +26,7 @@ p {	color: #50A8C6;
 
 .navbar-brand img {
   height: 45px;
-  width: 45px;
+  /*width: 45px;*/
 }
 
 .navbar {
@@ -53,7 +53,8 @@ div .dropdown-menu {
 
 .dropdown-item {
 	color: white;
-	font-weight: 300;
+  /*font-family: 'Cairo', sans-serif;*/
+	font-weight: 600;
   font-size: 1.2rem;
 	padding: 4px 12px;
 	margin: 0px;
@@ -62,7 +63,7 @@ div .dropdown-menu {
 }
 
 .dropdown-item:hover {
-	font-weight: 300;
+	font-weight: 600;
   background-color: transparent;
 }
 
@@ -72,10 +73,11 @@ div .dropdown-menu {
 
 .dropdown-item.active span {
   background-color: rgba(0,0,0,1);
+  padding: 0px 4px;
 }
 
 .dropdown-item.active:hover {
-  font-weight: 300;
+  font-weight: 600;
 }
 
 .navbar.scrolled {
@@ -173,7 +175,7 @@ footer {
 
 .email-text {
 	color: white;
-	font-size: 1rem;
+	font-size: 1.2rem;
 	font-weight: 100;
   color: rgba(255,255,255,0.7);
 
