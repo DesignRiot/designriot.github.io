@@ -147,6 +147,7 @@ span.quotemarks {
     background-color: rgba(72,151,178,0.8);
     border-right: 0px solid transparent;
     box-sizing: border-box;
+    width: 100%;
 }
 
 
