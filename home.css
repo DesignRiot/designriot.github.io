@@ -44,7 +44,7 @@ img#blockkingproject {
 }*/
 
 .dreespageimage {
-    width: 100%;
+    width: 80%;
 }
 
 .drees-info-text {
@@ -58,12 +58,12 @@ img#blockkingproject {
 }
 
 .row-padding-center {
-    padding: 0px 0px 2rem 0px;
+    padding: 3rem 0rem 0rem 0rem;
     margin: 0px;
 }
 
 .row-padding-end {
-    padding: 0px 0px 5rem 0px;
+    padding: 5rem 0rem 4rem 0rem;
     margin: 0px;
 }
 
