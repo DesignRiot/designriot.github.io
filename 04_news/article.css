@@ -1,0 +1,221 @@
+.top-container {
+    margin-top: 63px;
+    padding: 0rem
+}
+
+.articleimage {
+    width: 100%;
+}
+
+
+
+h5.highlight {
+    display: inline-block;
+    margin-bottom: 12px;
+    padding: 0.3rem;
+    color: white;
+    background-color: rgba(72,151,178,0.5);
+}
+
+/*h5 span {
+    background-color: rgba(72,151,178,0.7);
+}*/
+
+p.quote {
+	text-align: right;
+	font-size: 1.4rem;
+	font-weight: 500;
+	color: #4897B2;
+	font-family: 'Raleway', cursive;
+}
+
+.degree-text {
+    text-align: justify;
+    margin-bottom: 8px;
+}
+
+.contact-info {
+    padding-bottom: 1rem;
+}
+
+.contact-info a {
+    color: #50A8C6;
+    font-weight: 100;
+    font-size: 1rem;
+}
+
+.thumbnail-profile {
+    color: rgba(72,151,178,0.5);
+    font-size: 1.0rem;
+    padding-right: 2rem;
+    margin: 0px;
+}
+
+.thumbnail-profile:hover {
+    color: rgba(72,151,178,1);
+    /* font-size: 1.1rem; */
+    text-decoration: none;
+}
+
+.display-3 {
+	color: #4897B2;
+	font-weight: 100;
+}
+
+img[src="../../imgs/emad.jpg"] {
+    width: 100%; 
+}
+
+img[src="../../imgs/ivana.jpg"] {
+    width: 100%; 
+}
+
+.card {
+    border: solid 0px white;
+    padding: 0px 0px 2rem 0px; 
+    /*width: 100%;*/
+}
+
+/*.photo-block {
+	position: relative;
+    height: 200px;
+    width: 200px;
+    padding: 0px;
+    margin: 0px;
+
+    background-image: url("../../imgs/emad.jpg");
+    background-position: cover;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    border: solid 0px white;
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+
+.photo-block:hover {
+	transition: filter .7s ease-in-out;
+	-webkit-filter: grayscale(0%);
+	filter: grayscale(0%);
+}*/
+
+div .contact-details {
+    padding-top: 10px;
+}
+
+hr {
+	display: block;
+    width: 100%;
+	border-top: 1px solid rgb(255, 255, 255);
+	border-bottom: 3px solid rgba(72,151,178,0.8);
+	margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+span.quotemarks {
+	font-weight: 800;
+	color: rgba(72,151,178,0.7);
+}
+
+/*TYPE EFFECT*/
+
+.typewriter {
+    font-family: Courier, monospace;
+	display: inline-block;
+    padding-bottom: 16px;
+   /* padding-top: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 0rem;
+    padding-left: 1rem;*/
+}
+
+/*EMAD ALYEDREESSY*/
+
+.typewriter-text {
+    display: block;
+  	overflow: hidden;
+  	letter-spacing: 4px;
+ 	animation: 	typing 2s cubic-bezier(.83,.02,.23,.98) 0.5s alternate both,
+ 				blinking .75s step-end 0;
+    white-space: nowrap;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: rgba(72,151,178,0.8);
+    border-right: 0px solid transparent;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+
+@keyframes typing {
+    from { 
+        width: 0% 
+    }
+    to { 
+        width: 100% 
+    }
+}
+
+@keyframes blinking {
+    from, to { 
+        border-color: transparent 
+    }
+    50% { 
+        border-color: transparent; 
+    }
+}
+
+
+.typewriter-contact {
+    font-family: Courier, monospace;
+    display: inline-flex;
+}
+
+/*Arch, Code, Create + Collab*/
+
+.typewriter-text2 {
+    display: block;
+  	overflow: hidden;
+  	letter-spacing: 2px;
+ 	animation: 	typing 1.5s steps(11, end) 2s alternate both,
+ 				blinking .75s step-end 0.5s infinite;
+    white-space: nowrap;
+    font-size: 0.8rem;
+    font-weight: 600;
+    border-right: 4px solid transparent;
+    box-sizing: border-box;
+    margin-top: 15px;
+}
+
+@keyframes typing {
+    from { 
+        width: 0% 
+    }
+    to { 
+        width: 100% 
+    }
+}
+
+@keyframes blinking {
+    from, to { 
+        border-color: transparent; 
+    }
+    50% { 
+        border-color: orange; 
+    }
+}
+
+.jumbotron {
+    margin: 0px;
+    padding: 1rem 1rem;
+    
+}
+
+
+/*.background-text {
+    padding-top: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+}*/
