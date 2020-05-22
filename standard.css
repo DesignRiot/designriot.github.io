@@ -9,15 +9,39 @@ body {
 
 h2 {
   color: #4897B2;
-  font-weight: 100;
-  font-size: 1.5rem;
+  font-weight: 300;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
   /*text-transform: uppercase;*/
 }
+
+
+/*h5.highlight {
+    display: inline-block;
+    margin-bottom: 0rem;
+    padding: 0rem;
+    color: white;
+    background-color: rgba(72,151,178,0.5);
+}*/
+
+
+
+h5.highlight {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    font-weight: 300;
+    /*color: rgba(72,151,178,1);*/
+    color: white;
+    background-color: rgba(72,151,178,0.5);
+}
+
 
 p {	color: #50A8C6;
 	font-weight: 300;
 	font-size: 1rem;
 	line-height: 2rem;
+  margin-bottom: 0.5rem;
 }
 
 #navbar-main {
@@ -160,6 +184,34 @@ div .dropdown-menu {
     transform: rotate(-90deg);
     transition: bottom 0.1s ease-out, transform 0.22s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1); }
 
+
+.jumbotron {
+  /*position: relative;*/
+    /*top: 63px;*/
+    margin-top: 63px;
+  background-color: rgba(163,203,216,1);
+    padding: 3rem;
+}
+
+p.jumbotron-text {
+    text-align: justify;
+    color: #000000;
+    margin-bottom: 0.5rem;
+}
+
+p.jumbotron-text-2 {
+    text-align: justify;
+    /*width: 50%;*/
+    color: white;
+}
+
+p.quote {
+  text-align: right;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #4897B2;
+    /*font-family: Courier, monospace;*/
+}
 
 footer {
 	position: relative;

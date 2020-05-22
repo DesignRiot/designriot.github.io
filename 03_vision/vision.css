@@ -1,12 +1,3 @@
-.jumbotron {
-	/*position: relative;*/
-    /*top: 63px;*/
-    margin-top: 63px;
-    margin-bottom: 0px;
-	background-color: rgba(163,203,216,1);
-    padding: 3rem;
-}
-
 hr {
 	width: 50%;
 	border-top: 1px solid rgb(255, 255, 255);
@@ -29,13 +20,14 @@ hr {
 	color: #4897B2;
 }
 
-h2:hover {
-    display: inline-block;
-    background-color: rgba(72,151,178,0.5);
-    color: white;
-    /*padding: 0px 1rem;*/
-}
 
+h2.highlight:hover {
+    display: inline-block;
+    margin-bottom: 0rem;
+    padding: 0rem;
+    color: white;
+    background-color: rgba(72,151,178,0.5);
+}
 
 /*TYPE EFFECT*/
 

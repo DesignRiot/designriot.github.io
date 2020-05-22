@@ -15,15 +15,11 @@ h1 span {
 	color: #4897B2;
 }
 
-h2.highlight {
-    display: inline-block;
-    margin: 0px;
-    padding: 0.3rem;
-    color: rgba(72,151,178,1);
-    background-color: rgba(72,151,178,0.2);
-}
 
 h2.highlight:hover {
+    display: inline-block;
+    margin-bottom: 0rem;
+    padding: 0rem;
     color: white;
     background-color: rgba(72,151,178,0.5);
 }
