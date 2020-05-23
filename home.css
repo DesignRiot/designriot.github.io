@@ -198,6 +198,18 @@ img[src*="code_icon"] {
 
 }
 
+.carousel-caption-2 {
+    text-align: right;
+    position: relative;
+    top: 0%;
+    right:0;
+    left: 0%;
+    bottom: 0;
+    padding: 3rem 0px 3rem 3rem;
+    width: 100%;
+
+}
+
 .carousel-heading {
 	text-align: right;
     font-family: Courier, monospace;

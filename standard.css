@@ -279,3 +279,8 @@ footer {
 }
 
 }
+
+img#miniarb {
+  padding: 0px 8px 13px 8px;
+  opacity: 0.7;
+}
