@@ -139,7 +139,7 @@ img#blockkingproject {
     display: inline-block;
   	overflow: hidden;
   	letter-spacing: 2px;
- 	animation: 	typing 3s steps(28, end) 3.5s alternate both,
+ 	animation: 	typing 3s steps(21, end) 3.5s alternate both,
  				blinking .75s step-end 2s infinite;
     white-space: nowrap;
     font-size: 1rem;
