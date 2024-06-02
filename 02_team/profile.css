@@ -29,7 +29,7 @@ p.quote {
 	font-size: 1.4rem;
 	font-weight: 500;
 	color: #4897B2;
-	font-family: 'Raleway', cursive;
+	font-family: Europa, sans-serif;
 }
 
 .degree-text {
@@ -123,7 +123,7 @@ span.quotemarks {
 /*TYPE EFFECT*/
 
 .typewriter {
-    font-family: Courier, monospace;
+    font-family: Europa, sans-serif;
 	display: inline-block;
     padding-bottom: 16px;
    /* padding-top: 1rem;
@@ -171,7 +171,7 @@ span.quotemarks {
 
 
 .typewriter-contact {
-    font-family: Courier, monospace;
+    font-family: Europa, sans-serif;
     display: inline-flex;
 }
 
