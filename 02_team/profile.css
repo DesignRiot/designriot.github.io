@@ -151,8 +151,9 @@ span.quotemarks {
  	animation: 	typing 2s cubic-bezier(.83,.02,.23,.98) 0.5s alternate both,
  				blinking .75s step-end 0;
     white-space: nowrap;
-    font-size: 1.8rem;
-    font-weight: 600;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 0px;
     color: #000000;
 /*    background-color: rgba(72,151,178,0.8);*/
     border-right: 0px solid transparent;
