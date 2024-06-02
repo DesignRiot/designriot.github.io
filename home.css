@@ -90,8 +90,8 @@ img#blockkingproject {
 /*TYPE EFFECT*/
 
 .typewriter {
-    font-family: Europa, sans-serif;
-    padding: 3rem;
+    font-family: articulat-cf, sans-serif;
+    padding: 1rem;
 	display: inline-block;
 }
 
@@ -108,6 +108,7 @@ img#blockkingproject {
     font-weight: 400;
     color: #ffffff;
     background-color: #000000;
+    padding: 0px;
     border-right: 0px solid transparent;
     box-sizing: border-box;
 }
@@ -213,7 +214,7 @@ img[src*="code_icon"] {
 
 .carousel-heading {
 	text-align: right;
-    font-family: Europa, sans-serif;
+    font-family: articulat-cf, sans-serif;
     font-size: 1.8rem;
 	font-weight: 400;
 	color: #ffffff;
@@ -237,7 +238,7 @@ img[src*="code_icon"] {
 
 .carousel-subtext {
     text-align: right;
-    font-family: Europa, sans-serif;
+    font-family: articulat-cf, sans-serif;
 	font-size: 1.1rem;
 	color: #ffffff;
 	padding-top: 20px;
