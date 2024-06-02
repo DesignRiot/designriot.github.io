@@ -71,7 +71,7 @@ span.quotemarks {
 /*TYPE EFFECT*/
 
 .typewriter {
-    font-family: articulat-cf, sans-serif;
+/*    font-family: articulat-cf, sans-serif;*/
     padding: 1rem;
 	display: inline-block;
 }
