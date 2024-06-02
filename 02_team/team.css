@@ -80,7 +80,7 @@ span.quotemarks {
 /*TYPE EFFECT*/
 
 .typewriter {
-/*    font-family: ofelia-text, sans-serif;*/
+    font-family: ofelia-text, sans-serif;
     padding: 1rem;
 	display: inline-block;
 }

@@ -113,7 +113,7 @@ img#blockkingproject {
  				blinkingdrees .75s step-end 4;
     white-space: nowrap;
     font-size: 4rem;
-    font-weight: 600;
+    font-weight: 500;
     color: #ffffff;
     background-color: #000000;
     padding: 0px;
@@ -153,7 +153,7 @@ img#blockkingproject {
  				blinking .75s step-end 2s infinite;
     white-space: nowrap;
     font-size: 1rem;
-    font-weight: 300;
+    font-weight: 400;
     border-right: 4px solid transparent;
     box-sizing: border-box;
     margin-top: 15px;
@@ -222,7 +222,7 @@ img[src*="code_icon"] {
 
 .carousel-heading {
 	text-align: right;
-/*    font-family: ofelia-text, sans-serif;*/
+    font-family: ofelia-text, sans-serif;
     font-size: 1.8rem;
 	font-weight: 400;
 	color: #ffffff;
@@ -246,7 +246,7 @@ img[src*="code_icon"] {
 
 .carousel-subtext {
     text-align: right;
-/*    font-family: ofelia-text, sans-serif;*/
+    font-family: ofelia-text, sans-serif;
 	font-size: 1.1rem;
 	color: #ffffff;
 	padding-top: 20px;
