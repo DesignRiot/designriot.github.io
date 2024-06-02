@@ -22,6 +22,10 @@ div.info-text p {
     color: #000000;
 }
 
+h5 {
+    font-weight: 600;
+}
+
 h5.highlight {
     display: inline-block;
     margin-bottom: 12px;
