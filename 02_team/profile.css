@@ -188,7 +188,7 @@ span.quotemarks {
     font-weight: 600;
     border-right: 4px solid transparent;
     box-sizing: border-box;
-    margin-top: 15px;
+    margin-top: 5px;
 }
 
 @keyframes typing {
