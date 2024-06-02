@@ -107,7 +107,6 @@ img#blockkingproject {
 
 .typewriter-text {
     display: block;
-    justify-content: center;
   	overflow: hidden;
   	letter-spacing: 6px;
  	animation: 	typingdrees 1.5s cubic-bezier(.83,.02,.23,.98) 1s alternate both,
