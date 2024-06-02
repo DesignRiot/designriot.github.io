@@ -76,7 +76,7 @@ div .dropdown-menu {
 
 .dropdown-item {
 	color: white;
-  /*font-family: 'Cairo', sans-serif;*/
+  font-family: ofelia-text, sans-serif;
 	font-weight: 300;
   font-size: 1.2rem;
 	padding: 4px 12px;
@@ -86,7 +86,7 @@ div .dropdown-menu {
 }
 
 .dropdown-item:hover {
-	font-weight: 400;
+	font-weight: 300;
   background-color: transparent;
 }
 
@@ -100,7 +100,7 @@ div .dropdown-menu {
 }
 
 .dropdown-item.active:hover {
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .navbar.scrolled {
