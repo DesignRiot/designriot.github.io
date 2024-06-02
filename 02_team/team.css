@@ -92,7 +92,7 @@ span.quotemarks {
 .typewriter-text {
     display: block;
   	overflow: hidden;
-  	letter-spacing: 4px;
+  	letter-spacing: 6px;
  	animation: 	typing 2s cubic-bezier(.83,.02,.23,.98) 0.5s alternate both,
  				blinking .75s step-end 0;
     white-space: nowrap;
@@ -100,7 +100,7 @@ span.quotemarks {
     font-weight: 500;
     color: #ffffff;
     background-color: #000000;
-    padding: 0px;
+    padding: 20px;
     border-right: 0px solid transparent;
     box-sizing: border-box;
 }

@@ -106,9 +106,10 @@ img#blockkingproject {
 /*DREES CONSULTING*/
 
 .typewriter-text {
-    display: block;
+    display: flex;
+    justify-content: center;
   	overflow: hidden;
-  	letter-spacing: 4px;
+  	letter-spacing: 6px;
  	animation: 	typingdrees 1.5s cubic-bezier(.83,.02,.23,.98) 1s alternate both,
  				blinkingdrees .75s step-end 4;
     white-space: nowrap;
@@ -116,7 +117,7 @@ img#blockkingproject {
     font-weight: 500;
     color: #ffffff;
     background-color: #000000;
-    padding: 0px;
+    padding: 20px;
     border-right: 0px solid transparent;
     box-sizing: border-box;
 }
