@@ -1,5 +1,5 @@
 .display-3 {
-	color: #4897B2;
+	color: #000000;
 	font-weight: 100;
 }
 
@@ -12,7 +12,7 @@
 }
 
 .btn-outline-success {
-	color: rgba(72,151,178,1);
+	color: rgba(0,0,0,1);
 	border: solid 1px #4897B2;
 }
 
