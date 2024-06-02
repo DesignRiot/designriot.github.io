@@ -107,7 +107,7 @@ img#blockkingproject {
     font-weight: 400;
     color: #ffffff;
     background-color: #000000;
-    border-right: 0px solid transparent;
+    border-right: 10px solid transparent;
     box-sizing: border-box;
 }
 
