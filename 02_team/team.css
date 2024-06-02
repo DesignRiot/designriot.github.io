@@ -11,6 +11,10 @@
     padding: 1rem 0rem 0rem 0rem;   
 }
 
+.card-text {
+    color: #000000;   
+}
+
 .btn-outline-success {
 	color: rgba(0,0,0,1);
 	border: solid 1px #4897B2;
