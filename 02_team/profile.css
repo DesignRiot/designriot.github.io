@@ -49,6 +49,7 @@ p.quote {
 
 .contact-info {
     padding-bottom: 1rem;
+    color: #000000;
 }
 
 .contact-info a {
@@ -66,7 +67,7 @@ p.quote {
 
 .thumbnail-profile:hover {
     color: rgba(72,151,178,1);
-    /* font-size: 1.1rem; */
+/*     font-weight: 200;*/
     text-decoration: none;
 }
 
