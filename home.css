@@ -7,7 +7,7 @@ h1 {
 	color: white;
 	text-transform: uppercase;
 	text-align: center;
-	font-weight: 100;
+	font-weight: 400;
 	font-size: 3.5rem;
 }
 
@@ -90,7 +90,7 @@ img#blockkingproject {
 /*TYPE EFFECT*/
 
 .typewriter {
-    font-family: Courier, monospace;
+    font-family: Europa, sans-serif;
 	display: inline-block;
 }
 
@@ -104,7 +104,7 @@ img#blockkingproject {
  				blinkingdrees .75s step-end 4;
     white-space: nowrap;
     font-size: 4rem;
-    font-weight: 500;
+    font-weight: 400;
     color: #ffffff;
     background-color: #000000;
     border-right: 0px solid transparent;
@@ -212,9 +212,9 @@ img[src*="code_icon"] {
 
 .carousel-heading {
 	text-align: right;
-    font-family: Courier, monospace;
+    font-family: Europa, sans-serif;
     font-size: 1.8rem;
-	font-weight: 200;
+	font-weight: 400;
 	color: #ffffff;
 	display: block;
 	margin: 0px;
@@ -236,11 +236,11 @@ img[src*="code_icon"] {
 
 .carousel-subtext {
     text-align: right;
-    font-family: Courier, monospace;
+    font-family: Europa, sans-serif;
 	font-size: 1.1rem;
 	color: #ffffff;
 	padding-top: 20px;
-	font-weight: 500;
+	font-weight: 700;
 	display: block;
 	justify-content: flex-end;
 	white-space: normal;
