@@ -113,7 +113,7 @@ img#blockkingproject {
  				blinkingdrees .75s step-end 4;
     white-space: nowrap;
     font-size: 4rem;
-    font-weight: 700;
+    font-weight: 600;
     color: #ffffff;
     background-color: #000000;
     padding: 0px;
@@ -153,7 +153,7 @@ img#blockkingproject {
  				blinking .75s step-end 2s infinite;
     white-space: nowrap;
     font-size: 1rem;
-    font-weight: 700;
+    font-weight: 600;
     border-right: 4px solid transparent;
     box-sizing: border-box;
     margin-top: 15px;
