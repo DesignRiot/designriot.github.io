@@ -72,15 +72,11 @@ hr {
 	margin-top: 20px;
 }
 
-p.quote {
-    font-weight: 300;
-    font-size: 1.1rem;
-}
 
 span.quotemarks {
-	font-weight: 500;
-    font-size: 1.3rem;
-    color: rgba(72,151,178,1);
+	font-weight: 600;
+    font-size: 1.5rem;
+    color: #4897B2;
 }
 
 /*TYPE EFFECT*/
