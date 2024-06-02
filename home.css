@@ -91,6 +91,7 @@ img#blockkingproject {
 
 .typewriter {
     font-family: Europa, sans-serif;
+    padding: 0.5rem;
 	display: inline-block;
 }
 
@@ -98,7 +99,6 @@ img#blockkingproject {
 
 .typewriter-text {
     display: block;
-    padding: 0.5rem;
   	overflow: hidden;
   	letter-spacing: 4px;
  	animation: 	typingdrees 1.5s cubic-bezier(.83,.02,.23,.98) 1s alternate both,
