@@ -213,7 +213,7 @@ img[src*="code_icon"] {
 .carousel-heading {
 	text-align: right;
     font-family: Courier, monospace;
-    font-size: 2rem;
+    font-size: 1.8rem;
 	font-weight: 200;
 	color: #ffffff;
 	display: block;
