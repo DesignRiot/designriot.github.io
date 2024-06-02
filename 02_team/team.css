@@ -72,8 +72,12 @@ hr {
 	margin-top: 20px;
 }
 
+p.quote {
+    font-weight: 300;
+}
+
 span.quotemarks {
-	font-weight: 400;
+	font-weight: 500;
 	color: rgba(72,151,178,0.7);
 }
 
@@ -95,7 +99,7 @@ span.quotemarks {
  				blinking .75s step-end 0;
     white-space: nowrap;
     font-size: 4rem;
-    font-weight: 600;
+    font-weight: 500;
     color: #ffffff;
     background-color: #000000;
     padding: 0px;
@@ -135,7 +139,7 @@ span.quotemarks {
  				blinking .75s step-end 2s infinite;
     white-space: nowrap;
     font-size: 1rem;
-    font-weight: 600;
+    font-weight: 400;
     border-right: 4px solid transparent;
     box-sizing: border-box;
     margin-top: 15px;
