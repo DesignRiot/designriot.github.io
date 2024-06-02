@@ -98,9 +98,9 @@ span.quotemarks {
     white-space: nowrap;
     font-size: 4rem;
     font-weight: 500;
-    color: #ffffff;
-    background-color: #000000;
-    padding: 20px;
+    color: #000000;
+/*    background-color: #000000;*/
+    padding: 0px;
     border-right: 0px solid transparent;
     box-sizing: border-box;
 }
