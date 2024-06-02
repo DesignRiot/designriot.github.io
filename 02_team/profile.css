@@ -52,13 +52,13 @@ p.quote {
 }
 
 .contact-info a {
-    color: #50A8C6;
+    color: #000000;
     font-weight: 100;
     font-size: 1rem;
 }
 
 .thumbnail-profile {
-    color: rgba(72,151,178,0.5);
+    color: rgba(0,0,0,0.5);
     font-size: 1.0rem;
     padding-right: 2rem;
     margin: 0px;
