@@ -250,7 +250,7 @@ footer {
 
 .thumbnail {
 	color: rgba(255,255,255,1);
-	font-size: 1.8rem;
+	font-size: 1.5rem;
 }
 
 .thumbnail:hover {
@@ -290,7 +290,7 @@ footer {
 }
 
 img#miniarb {
-  padding: 0px 10px 12px 10px;
+  padding: 0px 0px 11px 0px;
   opacity: 1;
 /*  max-height: 2px;*/
 }
