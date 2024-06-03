@@ -290,7 +290,7 @@ footer {
 }
 
 img#miniarb {
-  padding: 0rem 0.2rem 0.8rem 0.2rem;
+  padding: 0rem, 0.2rem, 0.8rem, 0.2rem;
   opacity: 1;
   max-height: 2.2px;
 }
