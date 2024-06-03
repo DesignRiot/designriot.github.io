@@ -109,8 +109,8 @@ img#blockkingproject {
     display: block;
   	overflow: hidden;
   	letter-spacing: 6px;
- 	animation: 	typingdrees 1.5s cubic-bezier(.83,.02,.23,.98) 1s alternate both,
- 				blinkingdrees .75s step-end 4;
+ 	animation: 	typingdrees 1.5s cubic-bezier(.63,.02,.23,.98) 1s alternate both,
+ 				blinkingdrees .75s step-end infinite;
     white-space: nowrap;
     font-size: 4rem;
     font-weight: 500;
