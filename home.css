@@ -227,7 +227,8 @@ img[src*="code_icon"] {
     font-family: ofelia-text, sans-serif;
     font-size: 1.8rem;
 	font-weight: 400;
-	color: #ffffff;
+/*    color: #ffffff;*/
+	color: #012d59;
 	display: block;
 	margin: 0px;
 	white-space: normal;
@@ -237,7 +238,8 @@ img[src*="code_icon"] {
 
 
 .carousel-heading span{
-	background-color: #012d59;
+/*    background-color: #012d59;*/
+	background-color: transparent;
 
 }
 
@@ -250,7 +252,8 @@ img[src*="code_icon"] {
     text-align: right;
     font-family: ofelia-text, sans-serif;
 	font-size: 1.1rem;
-	color: #ffffff;
+/*    color: #ffffff;*/
+    color: #012d59;
 	padding-top: 20px;
 	font-weight: 700;
 	display: block;
@@ -260,7 +263,8 @@ img[src*="code_icon"] {
 }
 
 .carousel-subtext span{
-    background-color: #012d59;
+/*    background-color: #012d59;*/
+    background-color: transparent;
 
 }
 
