@@ -74,6 +74,14 @@ div .dropdown-menu {
 	padding-top: 100px;
 }*/
 
+@media (min-width: 768px) {
+    .navbar-expand-md .navbar-nav .nav-link {
+        padding-top: 10px;
+        padding-right: 0.5rem;
+        padding-left: 0.5rem;
+    }
+}
+
 .dropdown-item {
 	color: white;
   font-family: ofelia-text, sans-serif;
