@@ -205,7 +205,7 @@ img[src*="code_icon"] {
 	right:0;
 	left: 0%;
 	bottom: 0;
-	padding: 70px 0px 0px 3rem;
+	padding: 80px 0px 0px 3rem;
 	width: 100%;
 
 }
@@ -225,7 +225,7 @@ img[src*="code_icon"] {
 .carousel-heading {
 	text-align: right;
     font-family: ofelia-text, sans-serif;
-    font-size: 1.8rem;
+    font-size: 1.4rem;
 	font-weight: 400;
 /*    color: #ffffff;*/
 	color: #012d59;
@@ -254,7 +254,7 @@ img[src*="code_icon"] {
 	font-size: 1.1rem;
 /*    color: #ffffff;*/
     color: #012d59;
-	padding-top: 20px;
+	padding-top: 12px;
 	font-weight: 700;
 	display: block;
 	justify-content: flex-end;
