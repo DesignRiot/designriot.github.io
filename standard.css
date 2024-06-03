@@ -48,7 +48,7 @@ p {	color: #50A8C6;
 }
 
 .navbar-brand img {
-  height: 45px;
+  height: 40px;
   /*width: 45px;*/
 }
 
@@ -196,7 +196,7 @@ div .dropdown-menu {
 .jumbotron {
   /*position: relative;*/
     /*top: 63px;*/
-    margin-top: 63px;
+    margin-top: 58px;
   background-color: rgba(163,203,216,1);
     padding: 3rem;
 }
