@@ -76,7 +76,7 @@ div .dropdown-menu {
 
 @media (min-width: 768px) {
     .navbar-expand-md .navbar-nav .nav-link {
-        padding-top: 10px;
+        padding-top: 12px;
         padding-right: 0.5rem;
         padding-left: 0.5rem;
     }
