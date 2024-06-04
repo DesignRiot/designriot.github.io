@@ -1,5 +1,14 @@
+body {
+    background: rgba(255,255,255,1);
+  /*font-family: Courier, monospace;*/
+    font-family: ofelia-text, sans-serif;
+  /*font-family: 'Raleway', sans-serif;*/
+    overflow-x: hidden;
+  height: 100%;
+}
+
 .display-3 {
-	color: #4897B2;
+	color: #000000;
 	font-weight: 100;
 }
 
@@ -11,8 +20,12 @@
     padding: 1rem 0rem 0rem 0rem;   
 }
 
+.card-text {
+    color: black;   
+}
+
 .btn-outline-success {
-	color: rgba(72,151,178,1);
+	color: rgba(0,0,0,1);
 	border: solid 1px #4897B2;
 }
 
@@ -59,15 +72,18 @@ hr {
 	margin-top: 20px;
 }
 
+
 span.quotemarks {
-	font-weight: 800;
-	color: rgba(72,151,178,0.7);
+	font-weight: 600;
+    font-size: 1.5rem;
+    color: #4897B2;
 }
 
 /*TYPE EFFECT*/
 
 .typewriter {
-    font-family: Courier, monospace;
+    font-family: ofelia-text, sans-serif;
+    padding: 1rem;
 	display: inline-block;
 }
 
@@ -76,22 +92,22 @@ span.quotemarks {
 .typewriter-text {
     display: block;
   	overflow: hidden;
-  	letter-spacing: 4px;
+  	letter-spacing: 6px;
  	animation: 	typing 2s cubic-bezier(.83,.02,.23,.98) 0.5s alternate both,
  				blinking .75s step-end 0;
     white-space: nowrap;
     font-size: 4rem;
     font-weight: 500;
-    color: #ffffff;
-    background-color: #000000;
+    color: #012d59;
+/*    background-color: #000000;*/
     padding: 0px;
     border-right: 0px solid transparent;
     box-sizing: border-box;
 }
 
-div.typewriter-text:hover {
+/*div.typewriter-text:hover {
 	color: rgba(72,151,178,1);
-}
+}*/
 
 @keyframes typing {
     from { 
@@ -121,7 +137,8 @@ div.typewriter-text:hover {
  				blinking .75s step-end 2s infinite;
     white-space: nowrap;
     font-size: 1rem;
-    font-weight: 600;
+    font-weight: 400;
+    color: #012d59;
     border-right: 4px solid transparent;
     box-sizing: border-box;
     margin-top: 15px;

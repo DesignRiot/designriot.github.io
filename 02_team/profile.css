@@ -1,3 +1,12 @@
+body {
+    background: rgba(255,255,255,1);
+  /*font-family: Courier, monospace;*/
+    font-family: ofelia-text, sans-serif;
+  /*font-family: 'Raleway', sans-serif;*/
+    overflow-x: hidden;
+  height: 100%;
+}
+
 .top-container {
     margin-top: 63px;
     padding: 2rem 0px 0px 0px;
@@ -10,6 +19,11 @@ div.info-text {
 div.info-text p {
     line-height: 2rem;
     margin-bottom: 0px;
+    color: #000000;
+}
+
+h5 {
+    font-weight: 600;
 }
 
 h5.highlight {
@@ -28,8 +42,8 @@ p.quote {
 	text-align: right;
 	font-size: 1.4rem;
 	font-weight: 500;
-	color: #4897B2;
-	font-family: 'Raleway', cursive;
+	color: #000000;
+	font-family: ofelia-text, sans-serif;
 }
 
 .degree-text {
@@ -39,16 +53,17 @@ p.quote {
 
 .contact-info {
     padding-bottom: 1rem;
+    color: #000000;
 }
 
 .contact-info a {
-    color: #50A8C6;
+    color: #000000;
     font-weight: 100;
     font-size: 1rem;
 }
 
 .thumbnail-profile {
-    color: rgba(72,151,178,0.5);
+    color: rgba(0,0,0,0.5);
     font-size: 1.0rem;
     padding-right: 2rem;
     margin: 0px;
@@ -56,7 +71,7 @@ p.quote {
 
 .thumbnail-profile:hover {
     color: rgba(72,151,178,1);
-    /* font-size: 1.1rem; */
+/*     font-weight: 200;*/
     text-decoration: none;
 }
 
@@ -123,7 +138,7 @@ span.quotemarks {
 /*TYPE EFFECT*/
 
 .typewriter {
-    font-family: Courier, monospace;
+    font-family: ofelia-text, sans-serif;
 	display: inline-block;
     padding-bottom: 16px;
    /* padding-top: 1rem;
@@ -141,10 +156,11 @@ span.quotemarks {
  	animation: 	typing 2s cubic-bezier(.83,.02,.23,.98) 0.5s alternate both,
  				blinking .75s step-end 0;
     white-space: nowrap;
-    font-size: 1.8rem;
-    font-weight: 500;
-    color: #ffffff;
-    background-color: rgba(72,151,178,0.8);
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 0px;
+    color: #000000;
+/*    background-color: rgba(72,151,178,0.8);*/
     border-right: 0px solid transparent;
     box-sizing: border-box;
     width: 100%;
@@ -171,7 +187,7 @@ span.quotemarks {
 
 
 .typewriter-contact {
-    font-family: Courier, monospace;
+    font-family: ofelia-text, sans-serif;
     display: inline-flex;
 }
 
@@ -188,7 +204,7 @@ span.quotemarks {
     font-weight: 600;
     border-right: 4px solid transparent;
     box-sizing: border-box;
-    margin-top: 15px;
+    margin-top: 5px;
 }
 
 @keyframes typing {
